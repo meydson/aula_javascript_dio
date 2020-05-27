@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aula JavaScript</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+        <header>
+            <button type="button" onclick="botao()">Clique aqui</button>
+            <h3 id="teste" onclick="redirecionar()"></h3>
+            <h3 id="mousemove" onmouseover="trocar()" onmouseout="voltar()">Passe o mouse aqui</h3>
+            <h3 onmouseover="trocar2(this)" onmouseout="voltar2(this)">Passe o mouse aqui 2</h3>
+        </header>
+        <select onchange="funcaochange(this)">
+            <option value="1">valor1</option>
+            <option value="2">valor2</option>
+            <option value="3">valor3</option>
+        </select>
+        
+        <footer>
+
+        </footer>
+    </body>
+</html>
